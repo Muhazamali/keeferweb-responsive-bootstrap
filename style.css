@@ -1,3 +1,4 @@
+
 main {
   overflow-x: hidden;
 }
@@ -308,6 +309,35 @@ hr {
     width: 10%;
   }
 }
+@media all and (min-width:768px) and (max-width: 1280px){
+.badges h3{
+  font-size:0.9rem ;
+}
+.badges{
+  margin: 0%;
+  
+}
+.btn-lg::after{
+  display:none;
+}
+.badges h4{
+  font-size: 0.7rem;
+  
+  margin-top: 0%;
+}
+.badges-b h2{
+  font-size: 1.2rem;
+}
+.badges-b p{
+  font-size: 0.7rem;
+}
+.badges-b button{
+  font-size: medium;
+}
+.frm p{
+  font-size: 1.4rem;
+}
+}
 @media all and (max-width: 576px) {
   .badges-b {
     display: flex;
@@ -318,6 +348,28 @@ hr {
     justify-items: center;
     justify-content: center;
   }
+  .frmtxta h2{
+    font-size: 200%;
+  }
+  .frmtxtb h4{
+    font-size:120%;
+  }
+  .frmtxtb h3{
+    font-size: 150%;
+  }
+  .frm p{
+    font-size: 100%;
+  }
+  .frm form{
+    margin-top: 10%;
+  }
+  .confi{
+    	display: none ;
+  }
+  .form-group input[type="text"]{
+    width: 100%;
+  }
+
   .badges-b h2,
   .badges-b p,
   .badges-b button {
