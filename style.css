@@ -1,4 +1,3 @@
-
 main {
   overflow-x: hidden;
 }
@@ -18,6 +17,11 @@ main {
 }
 .blue {
   color: darkblue;
+}
+img:hover{
+  opacity: 0.8;
+  color:black;
+  
 }
 .frmtxtb h4,
 .frmtxtb h3 {
@@ -49,12 +53,7 @@ main {
 
   position: relative;
 }
-.col-left {
-  padding-left: 2%;
-}
-.col-right {
-  padding-right: 2%;
-}
+
 .confi {
   position: absolute;
   right: 15%;
@@ -102,7 +101,7 @@ main {
 }
 .frm textarea {
   display: block;
-  width: 55%;
+  width: 80%;
   margin-left: 8%;
   margin-top: 2%;
 }
@@ -110,6 +109,12 @@ main {
   float: right;
 }
 .colsub-a {
+  display: block;
+}
+.txt2 h2 {
+  font-size: 1.4rem;
+}
+.txt2 {
   display: block;
 }
 .btn2 {
@@ -150,6 +155,9 @@ hr {
   background-color: gray;
   border-left: 10px solid maroon;
   box-shadow: 5px 5px lightgray;
+}
+textarea {
+  width: 80%;
 }
 .badges-b h2 {
   display: inline;
@@ -254,9 +262,7 @@ hr {
 }
 
 @media all and (max-width: 786px) {
-
   .btn-lg::after {
-    
     display: none;
   }
   .txt2 {
@@ -277,7 +283,7 @@ hr {
     justify-items: center;
     justify-content: center;
   }
-  
+
   .row1 {
     margin: 0%;
     padding: 0%;
@@ -309,34 +315,33 @@ hr {
     width: 10%;
   }
 }
-@media all and (min-width:768px) and (max-width: 1280px){
-.badges h3{
-  font-size:0.9rem ;
-}
-.badges{
-  margin: 0%;
-  
-}
-.btn-lg::after{
-  display:none;
-}
-.badges h4{
-  font-size: 0.7rem;
-  
-  margin-top: 0%;
-}
-.badges-b h2{
-  font-size: 1.2rem;
-}
-.badges-b p{
-  font-size: 0.7rem;
-}
-.badges-b button{
-  font-size: medium;
-}
-.frm p{
-  font-size: 1.4rem;
-}
+@media all and (min-width: 768px) and (max-width: 1280px) {
+  .badges h3 {
+    font-size: 0.9rem;
+  }
+  .badges {
+    margin: 0%;
+  }
+  .btn-lg::after {
+    display: none;
+  }
+  .badges h4 {
+    font-size: 0.7rem;
+
+    margin-top: 0%;
+  }
+  .badges-b h2 {
+    font-size: 1.2rem;
+  }
+  .badges-b p {
+    font-size: 0.7rem;
+  }
+  .badges-b button {
+    font-size: medium;
+  }
+  .frm p {
+    font-size: 1.4rem;
+  }
 }
 @media all and (max-width: 576px) {
   .badges-b {
@@ -348,26 +353,29 @@ hr {
     justify-items: center;
     justify-content: center;
   }
-  .frmtxta h2{
+  .frmtxta h2 {
     font-size: 200%;
   }
-  .frmtxtb h4{
-    font-size:120%;
+  .frmtxtb h4 {
+    font-size: 120%;
   }
-  .frmtxtb h3{
+  .frmtxtb h3 {
     font-size: 150%;
   }
-  .frm p{
+  .frm p {
     font-size: 100%;
   }
-  .frm form{
+  .frm form {
     margin-top: 10%;
   }
-  .confi{
-    	display: none ;
+  .confi {
+    display: none;
   }
-  .form-group input[type="text"]{
+  .form-group input[type="text"] {
     width: 100%;
+  }
+  .hdtext{
+    text-align: center;
   }
 
   .badges-b h2,
@@ -403,4 +411,5 @@ hr {
   .hdtext p {
     font-size: 10px;
   }
+
 }
